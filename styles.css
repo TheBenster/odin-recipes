@@ -18,15 +18,20 @@ img {
     width:400px;
 
 }
-a {
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+a.redirect {
     text-decoration: none;
     border-style: solid;
     border-color: white;
     border-width: 1px;
-    color:aliceblue;
-    border-radius: 10px;
+    color:black;
     max-width: 60px;
+    background-color: rgb(255, 255, 255);
 }
+
 p {
     max-width: 700px;
 }
